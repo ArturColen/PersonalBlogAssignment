@@ -221,14 +221,14 @@
         margin-bottom: 5vh;
     }
 
-    #about #information .social .info#info-left p{
+    #about #information .social .info#info-left p {
         font-size: 16px;
     }
 
     #about #information .social .info#info-right i {
         font-size: 1.3em;
     }
-    
+
     #about #information .social .info#info-right span {
         font-size: 1.3em;
     }
@@ -263,6 +263,10 @@
         .card-information
         span {
         font-size: 1.8em;
+    }
+
+    #suggestions .carousel {
+        width: 80%;
     }
 }
 
@@ -309,9 +313,13 @@
         span {
         font-size: 1.6em;
     }
+
+    #suggestions .carousel {
+        width: 80%;
+    }
 }
 
-@media screen and (max-width: 690px){
+@media screen and (max-width: 690px) {
     #about #information #description h6 {
         font-size: 15px;
     }
@@ -320,14 +328,14 @@
         font-size: 15px;
     }
 
-    #about #information .social .info#info-left p{
+    #about #information .social .info#info-left p {
         font-size: 15px;
     }
 
     #about #information .social .info#info-right i {
         font-size: 1.1em;
     }
-    
+
     #about #information .social .info#info-right span {
         font-size: 1.1em;
     }
@@ -337,7 +345,7 @@
     }
 }
 
-@media screen and (max-width: 648px){
+@media screen and (max-width: 648px) {
     #about #information #description h6 {
         font-size: 14px;
     }
@@ -346,12 +354,12 @@
         font-size: 14px;
     }
 
-    #about #information .social .info#info-left p{
+    #about #information .social .info#info-left p {
         font-size: 14px;
     }
 }
 
-@media screen and (max-width: 604px){
+@media screen and (max-width: 604px) {
     #about #information #description h6 {
         font-size: 13.8px;
     }
@@ -360,15 +368,53 @@
         font-size: 13.8px;
     }
 
-    #about #information .social .info#info-left p{
+    #about #information .social .info#info-left p {
         font-size: 13.8px;
     }
 }
 
 @media screen and (max-width: 600px) {
+    #about #information .social {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about #information #description p {
+        font-size: 13.5px;
+    }
+
+    #about #information .social .info#info-left p {
+        font-size: 13.5px;
+    }
+
+    #about #information .social .info#info-left {
+        align-items: center;
+    }
+
+    #about #information .social .info#info-right {
+        margin: 3vh 0;
+        justify-content: center;
+    }
+
+    #about #information .social#icons {
+        font-size: 1.5em;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #repositories {
+        margin-top: 7vh;
+    }
+
     #repositories #repository-cards {
         margin: 0 auto;
         grid-template-columns: 1fr;
+    }
+
+    #repositories #repository-cards .card {
+        margin-bottom: 4vh;
     }
 
     #repositories #repository-cards .card-title {
@@ -393,5 +439,13 @@
         .card-information
         span {
         font-size: 1.4xem;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    #colleagues #people {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
