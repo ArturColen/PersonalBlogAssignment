@@ -1,0 +1,397 @@
+/* === About Section === */
+#about #content {
+    display: flex;
+}
+
+#about #photo {
+    width: 20%;
+    height: 100%;
+    margin-right: 2vw;
+}
+
+#about #photo img {
+    width: 100%;
+    object-fit: cover;
+    border: 2px solid var(--white-color);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#about #information {
+    width: 80%;
+    font-size: 18px;
+}
+
+#about #information #description h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+#about #information #description p {
+    line-height: 1.2;
+}
+
+#about #information .social {
+    display: flex;
+}
+
+#about #information .social .info {
+    width: 50%;
+    display: flex;
+}
+
+#about #information .social .info#info-left {
+    flex-direction: column;
+    align-items: start;
+}
+
+#about #information .social .info#info-right {
+    justify-content: end;
+    align-items: start;
+}
+
+#about #information .social .info#info-right i {
+    font-size: 1.5em;
+    margin-right: 0.6vw;
+    color: var(--main-color);
+}
+
+#about #information .social .info#info-right span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#about #information .social .info p {
+    margin: 0;
+}
+
+#about #information .social .info p span {
+    font-weight: bold;
+}
+
+#about #information .social#icons {
+    font-size: 2.2em;
+    margin-top: 1.5vh;
+}
+
+#about #information .social#icons a:not(:last-child) {
+    margin-right: 2vw;
+}
+
+/* === Repositories Section === */
+#repositories #repository-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#repositories #repository-cards a {
+    text-decoration: none;
+}
+
+#repositories #repository-cards .card {
+    margin-bottom: 6vh;
+    border-radius: 5px;
+    transition: box-shadow 0.5s ease;
+}
+
+#repositories #repository-cards .card:hover {
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#repositories #repository-cards .card img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+}
+
+#repositories #repository-cards .card .card-body .card-content {
+    display: flex;
+    align-items: center;
+}
+
+#repositories
+    #repository-cards
+    .card
+    .card-body
+    .card-content
+    .card-information {
+    align-items: center;
+}
+
+#repositories
+    #repository-cards
+    .card
+    .card-body
+    .card-content
+    .card-information
+    i {
+    font-size: 2em;
+    margin-right: 0.5vw;
+}
+
+#repositories
+    #repository-cards
+    .card
+    .card-body
+    .card-content
+    .card-information.grey
+    i {
+    color: var(--grey-color);
+}
+
+#repositories
+    #repository-cards
+    .card
+    .card-body
+    .card-content
+    .card-information:first-child {
+    margin-right: 4vw;
+}
+
+#repositories
+    #repository-cards
+    .card
+    .card-body
+    .card-content
+    .card-information.green
+    i {
+    color: var(--main-color);
+}
+
+#repositories
+    #repository-cards
+    .card
+    .card-body
+    .card-content
+    .card-information
+    span {
+    font-size: 2em;
+}
+
+/* === Suggestions Section === */
+#suggestions #suggestions-slide {
+    background-color: var(--main-color);
+    padding: 4vh 0;
+    display: flex;
+    justify-content: center;
+}
+
+#suggestions .carousel {
+    width: 60%;
+}
+
+#suggestions .carousel iframe {
+    width: 100%;
+    height: 60vh;
+}
+
+/* === Colleagues Section === */
+#colleagues #people #person {
+    margin: 0 1vw;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colleagues #people #person img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid var(--white-color);
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#colleagues #people #person p {
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+/* === Media Queries === */
+@media screen and (max-width: 1147px) {
+    #about #information #description h6 {
+        font-size: 16px;
+        margin-top: 2vh;
+    }
+
+    #about #information #description p {
+        font-size: 16px;
+        margin-bottom: 5vh;
+    }
+
+    #about #information .social .info#info-left p{
+        font-size: 16px;
+    }
+
+    #about #information .social .info#info-right i {
+        font-size: 1.3em;
+    }
+    
+    #about #information .social .info#info-right span {
+        font-size: 1.3em;
+    }
+
+    #about #information .social#icons {
+        font-size: 2em;
+    }
+
+    #repositories #repository-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #repositories #repository-cards .card-title {
+        font-size: 18px;
+    }
+
+    #repositories
+        #repository-cards
+        .card
+        .card-body
+        .card-content
+        .card-information
+        i {
+        font-size: 1.8em;
+    }
+
+    #repositories
+        #repository-cards
+        .card
+        .card-body
+        .card-content
+        .card-information
+        span {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 901px) {
+    #about #content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #about #photo {
+        width: 90%;
+        margin-bottom: 2vh;
+    }
+
+    #repositories #repository-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #repositories #repository-cards .card {
+        margin: 0 auto;
+    }
+
+    #repositories #repository-cards .card-title {
+        font-size: 16px;
+    }
+
+    #repositories
+        #repository-cards
+        .card
+        .card-body
+        .card-content
+        .card-information
+        i {
+        font-size: 1.6em;
+    }
+
+    #repositories
+        #repository-cards
+        .card
+        .card-body
+        .card-content
+        .card-information
+        span {
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-width: 690px){
+    #about #information #description h6 {
+        font-size: 15px;
+    }
+
+    #about #information #description p {
+        font-size: 15px;
+    }
+
+    #about #information .social .info#info-left p{
+        font-size: 15px;
+    }
+
+    #about #information .social .info#info-right i {
+        font-size: 1.1em;
+    }
+    
+    #about #information .social .info#info-right span {
+        font-size: 1.1em;
+    }
+
+    #about #information .social#icons {
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (max-width: 648px){
+    #about #information #description h6 {
+        font-size: 14px;
+    }
+
+    #about #information #description p {
+        font-size: 14px;
+    }
+
+    #about #information .social .info#info-left p{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 604px){
+    #about #information #description h6 {
+        font-size: 13.8px;
+    }
+
+    #about #information #description p {
+        font-size: 13.8px;
+    }
+
+    #about #information .social .info#info-left p{
+        font-size: 13.8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #repositories #repository-cards {
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+    }
+
+    #repositories #repository-cards .card-title {
+        font-size: 14px;
+    }
+
+    #repositories
+        #repository-cards
+        .card
+        .card-body
+        .card-content
+        .card-information
+        i {
+        font-size: 1.4em;
+    }
+
+    #repositories
+        #repository-cards
+        .card
+        .card-body
+        .card-content
+        .card-information
+        span {
+        font-size: 1.4xem;
+    }
+}

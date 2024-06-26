@@ -1,0 +1,109 @@
+/* === Repository Section === */
+#repository h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+#repository p {
+    font-size: 1.08em;
+}
+
+#repository .information {
+    padding-right: 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#repository .information .icon {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+#repository .information .icon i {
+    font-size: 2em;
+    margin-right: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+
+#repository .information .icon.grey i {
+    color: var(--grey-color);
+}
+
+#repository .information .icon.green i {
+    color: var(--main-color);
+}
+
+#repository .information .icon span {
+    font-size: 2em;
+}
+
+#repository #acess-link a:hover {
+    color: var(--black-color);
+}
+
+#topics #unit {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#topics #unit span {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 0.5vw;
+    border-radius: 10px;
+    padding: 0.5em 1.8em;
+    background-color: var(--main-color);
+}
+
+/* === Media Queries === */
+@media screen and (max-width: 740px) {
+    #repository h6 {
+        font-size: 14px;
+    }
+
+    #repository p {
+        font-size: 0.9em;
+    }
+
+    #repository .information .icon i {
+        font-size: 1.8em;
+    }
+
+    #repository .information .icon span {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #repository h6 {
+        font-size: 12px;
+    }
+
+    #repository p {
+        font-size: 0.7em;
+    }
+
+    #repository .information .icon i {
+        font-size: 1.2em;
+        margin-right: 1.5vw;
+    }
+
+    #repository .information .icon span {
+        font-size: 1.2em;
+    }
+
+    #topics span {
+        font-size: 10px;
+        margin: 0 0.3vw;
+        padding: 0.3em 1.5em;
+    }
+}
+
+@media screen and (max-width: 495px) {
+    #topics #unit span {
+        margin: 0.3em;
+    }
+}
