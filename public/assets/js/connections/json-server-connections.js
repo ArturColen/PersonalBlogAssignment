@@ -1,6 +1,6 @@
 function getSuggestedContent(processData) {
     fetch(
-        'https://a25f6d67-4313-438f-a3c9-28bc62759a2f-00-3blersxcfx53d.janeway.replit.dev/suggestions'
+        '/suggestions'
     )
         .then((response) => response.json())
         .then((data) => {
@@ -13,7 +13,7 @@ function getSuggestedContent(processData) {
 
 function getColleaguesData(processData) {
     fetch(
-        'https://a25f6d67-4313-438f-a3c9-28bc62759a2f-00-3blersxcfx53d.janeway.replit.dev/colleagues'
+        '/colleagues'
     )
         .then((response) => response.json())
         .then((data) => {

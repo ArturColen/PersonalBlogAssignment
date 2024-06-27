@@ -124,7 +124,7 @@ function displayRepositories() {
             e.preventDefault();
 
             let repositoryId = card.getAttribute('data-id');
-            window.location.href = `./page/repository.html?id=${repositoryId}`;
+            window.location.href = `./page/repo.html?id=${repositoryId}`;
         });
     });
 }
