@@ -1,3 +1,7 @@
+main{
+    min-height: 80vh;
+}
+
 /* === Repository Section === */
 #repository h6 {
     font-size: 18px;

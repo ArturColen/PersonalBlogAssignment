@@ -92,8 +92,8 @@ function displayRepositories() {
 
     for (let i = 0; i < githubRepositoriesData.length; i++) {
         allRepositories.innerHTML += `
-                                    <a href="./pages/repo1.html">
-                                        <div class="card" style="width: 18rem">
+                                    <a href="./pages/repo.html">
+                                        <div class="card" style="width: 18rem" data-id="${githubRepositoriesData[i].id}">
                                             <img
                                                 class="card-img-top"
                                                 src="./assets/img/repositories/default-image.webp"
@@ -116,6 +116,17 @@ function displayRepositories() {
                                     </a>
                                 `;
     }
+
+    let repositoriesCard = document.querySelectorAll('.card');
+
+    repositoriesCard.forEach((card) => {
+        card.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            let repositoryId = card.getAttribute('data-id');
+            window.location.href = `./page/repository.html?id=${repositoryId}`;
+        });
+    });
 }
 
 function displaySuggestedContent() {
