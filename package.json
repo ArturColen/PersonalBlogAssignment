@@ -1,16 +1,20 @@
 {
-  "name": "personalblogassignment",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "Artur Bomtempo Colen",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "json-server": "^0.17.4"
-  }
+    "name": "personal-blog-assignment",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "format": "prettier --write ."
+    },
+    "keywords": [],
+    "author": "Artur Bomtempo Colen",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "json-server": "^0.17.4"
+    },
+    "devDependencies": {
+        "prettier": "^3.3.2"
+    }
 }

@@ -92,29 +92,29 @@ function displayRepositories() {
 
     for (let i = 0; i < githubRepositoriesData.length; i++) {
         allRepositories.innerHTML += `
-                                    <a href="./pages/repo.html">
-                                        <div class="card" style="width: 18rem" data-id="${githubRepositoriesData[i].id}">
-                                            <img
-                                                class="card-img-top"
-                                                src="./assets/img/repositories/default-image.webp"
-                                                alt="Imagem do card de repositórios"
-                                            />
-                                            <div class="card-body">
-                                                <h5 class="card-title">${githubRepositoriesData[i].name}</h5>
-                                                <div class="card-content">
-                                                    <div class="card-information grey">
-                                                        <i class="fa-solid fa-star"></i>
-                                                        <span>${githubRepositoriesData[i].stargazers_count}</span>
-                                                    </div>
-                                                    <div class="card-information green">
-                                                        <i class="fa-solid fa-user"></i>
-                                                        <span>${githubRepositoriesData[i].watchers_count}</span>
+                                        <a href="./pages/repo.html">
+                                            <div class="card" style="width: 18rem" data-id="${githubRepositoriesData[i].id}">
+                                                <img
+                                                    class="card-img-top"
+                                                    src="./assets/images/repositories/default-image.webp"
+                                                    alt="Imagem do card de repositórios"
+                                                />
+                                                <div class="card-body">
+                                                    <h5 class="card-title">${githubRepositoriesData[i].name}</h5>
+                                                    <div class="card-content">
+                                                        <div class="card-information grey">
+                                                            <i class="fa-solid fa-star"></i>
+                                                            <span>${githubRepositoriesData[i].stargazers_count}</span>
+                                                        </div>
+                                                        <div class="card-information green">
+                                                            <i class="fa-solid fa-user"></i>
+                                                            <span>${githubRepositoriesData[i].watchers_count}</span>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </a>
-                                `;
+                                        </a>
+                                    `;
     }
 
     let repositoriesCard = document.querySelectorAll('.card');
@@ -136,22 +136,23 @@ function displaySuggestedContent() {
 
     for (let i = 0; i < suggestedContent.length; i++) {
         suggestionSlide.innerHTML += `
-                                    <div class="carousel-item ${
-                                        i === 0 ? 'active' : ''
-                                    }">
-                                        <iframe
-                                            src="${
-                                                suggestedContent[i].contentUrl
-                                            }"
-                                            title="${suggestedContent[i].title}"
-                                            frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            referrerpolicy="strict-origin-when-cross-origin"
-                                            allowfullscreen
-                                        >
-                                        </iframe>
-                                    </div>
-                                `;
+                                        <div class="carousel-item ${
+                                            i === 0 ? 'active' : ''
+                                        }">
+                                            <iframe
+                                                src="${
+                                                    suggestedContent[i]
+                                                        .contentUrl
+                                                }"
+                                                title="${suggestedContent[i].title}"
+                                                frameborder="0"
+                                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                referrerpolicy="strict-origin-when-cross-origin"
+                                                allowfullscreen
+                                            >
+                                            </iframe>
+                                        </div>
+                                    `;
     }
 }
 
@@ -162,13 +163,13 @@ function displayColleaguesData() {
 
     for (let i = 0; i < colleaguesData.length; i++) {
         colleaguesSection.innerHTML += `
-                                    <div id="person">
-                                        <img
-                                            src="${colleaguesData[i].colleaguePhoto}"
-                                            alt="Foto de ${colleaguesData[i].colleagueName}"
-                                        />
-                                        <a href="${colleaguesData[i].colleagueProfile}" target="_blank"><p>${colleaguesData[i].colleagueName}</p></a>
-                                    </div>
-                                `;
+                                        <div id="person">
+                                                <img
+                                                    src="${colleaguesData[i].colleaguePhoto}"
+                                                    alt="Foto de ${colleaguesData[i].colleagueName}"
+                                                />
+                                                <a href="${colleaguesData[i].colleagueProfile}" target="_blank"><p>${colleaguesData[i].colleagueName}</p></a>
+                                            </div>
+                                        `;
     }
 }

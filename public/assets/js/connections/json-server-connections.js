@@ -1,7 +1,5 @@
 function getSuggestedContent(processData) {
-    fetch(
-        '/suggestions'
-    )
+    fetch('/suggestions')
         .then((response) => response.json())
         .then((data) => {
             processData(data);
@@ -12,9 +10,7 @@ function getSuggestedContent(processData) {
 }
 
 function getColleaguesData(processData) {
-    fetch(
-        '/colleagues'
-    )
+    fetch('/colleagues')
         .then((response) => response.json())
         .then((data) => {
             processData(data);

@@ -1,78 +1,77 @@
 {
     "suggestions": [
-      {
-        "id": 1,
-        "title": "Como sair do zero em Node.js em apenas 1 hora",
-        "description": "Vídeo da Rocketseat ensinando o básico de Node.js.",
-        "imageUrl": "https://i.ytimg.com/vi/hHM-hr9q4mo/maxresdefault.jpg",
-        "contentUrl": "https://www.youtube.com/embed/hHM-hr9q4mo?si=tgumK2nRo0VUzFyn"
-      },
-      {
-        "id": 2,
-        "title": "Python Para Iniciantes: Um Panorama Geral Sobre a Linguagem + ROADMAP de Estudos",
-        "description": "Vídeo explicando o básico de Python para quem está começando.",
-        "imageUrl": "https://i.ytimg.com/vi/3oKT5Oz1bTU/maxresdefault.jpg",
-        "contentUrl": "https://www.youtube.com/embed/3oKT5Oz1bTU?si=ILLChBpJEaSZFv3t"
-      },
-      {
-        "id": 3,
-        "title": "APRENDA GIT e GITHUB DO ZERO - guia completo",
-        "description": "Guia de como sair do zero até conseguir versionar seus primeiros projetos com Git e GitHub.",
-        "imageUrl": "https://i.ytimg.com/vi/pyM5QLS2h6M/maxresdefault.jpg",
-        "contentUrl": "https://www.youtube.com/embed/pyM5QLS2h6M?si=FETWmBIOXSgCBBT0"
-      },
-      {
-        "id": 4,
-        "title": "JavaScript ou TypeScript? Qual Escolher? Faz sentido?",
-        "description": "Vídeo explicativo da diferença entre JavaScript e TypeScript.",
-        "imageUrl": "https://i.ytimg.com/vi/FL1N4AP_uQ4/maxresdefault.jpg",
-        "contentUrl": "https://www.youtube.com/embed/FL1N4AP_uQ4?si=KvZFyksBvTR-P0_V"
-      },
-      {
-        "id": 5,
-        "title": "SQL // Dicionário do Programador",
-        "description": "Vídeo explicativo dos conceitos básicos de Banco de Dados SQL.",
-        "imageUrl": "https://i.ytimg.com/vi/kMznyI7r2Tc/mqdefault.jpg",
-        "contentUrl": "https://www.youtube.com/embed/kMznyI7r2Tc?si=m_mHreeSMdhgclLy"
-      }
+        {
+            "id": 1,
+            "title": "Como sair do zero em Node.js em apenas 1 hora",
+            "description": "Vídeo da Rocketseat ensinando o básico de Node.js.",
+            "imageUrl": "https://i.ytimg.com/vi/hHM-hr9q4mo/maxresdefault.jpg",
+            "contentUrl": "https://www.youtube.com/embed/hHM-hr9q4mo?si=tgumK2nRo0VUzFyn"
+        },
+        {
+            "id": 2,
+            "title": "Python Para Iniciantes: Um Panorama Geral Sobre a Linguagem + ROADMAP de Estudos",
+            "description": "Vídeo explicando o básico de Python para quem está começando.",
+            "imageUrl": "https://i.ytimg.com/vi/3oKT5Oz1bTU/maxresdefault.jpg",
+            "contentUrl": "https://www.youtube.com/embed/3oKT5Oz1bTU?si=ILLChBpJEaSZFv3t"
+        },
+        {
+            "id": 3,
+            "title": "APRENDA GIT e GITHUB DO ZERO - guia completo",
+            "description": "Guia de como sair do zero até conseguir versionar seus primeiros projetos com Git e GitHub.",
+            "imageUrl": "https://i.ytimg.com/vi/pyM5QLS2h6M/maxresdefault.jpg",
+            "contentUrl": "https://www.youtube.com/embed/pyM5QLS2h6M?si=FETWmBIOXSgCBBT0"
+        },
+        {
+            "id": 4,
+            "title": "JavaScript ou TypeScript? Qual Escolher? Faz sentido?",
+            "description": "Vídeo explicativo da diferença entre JavaScript e TypeScript.",
+            "imageUrl": "https://i.ytimg.com/vi/FL1N4AP_uQ4/maxresdefault.jpg",
+            "contentUrl": "https://www.youtube.com/embed/FL1N4AP_uQ4?si=KvZFyksBvTR-P0_V"
+        },
+        {
+            "id": 5,
+            "title": "SQL // Dicionário do Programador",
+            "description": "Vídeo explicativo dos conceitos básicos de Banco de Dados SQL.",
+            "imageUrl": "https://i.ytimg.com/vi/kMznyI7r2Tc/mqdefault.jpg",
+            "contentUrl": "https://www.youtube.com/embed/kMznyI7r2Tc?si=m_mHreeSMdhgclLy"
+        }
     ],
     "colleagues": [
-      {
-        "id": 1,
-        "colleaguePhoto": "https://avatars.githubusercontent.com/u/164039086?v=4",
-        "colleagueName": "Daniella Emily",
-        "colleagueProfile": "https://github.com/emilydaniella"
-      },
-      {
-        "id": 2,
-        "colleaguePhoto": "https://avatars.githubusercontent.com/u/165810733?v=4",
-        "colleagueName": "Davi Lanna",
-        "colleagueProfile": "https://github.com/DaviLanna"
-      },
-      {
-        "id": 3,
-        "colleaguePhoto": "https://avatars.githubusercontent.com/u/163441139?v=4",
-        "colleagueName": "Julia Cronenberger",
-        "colleagueProfile": "https://github.com/juliacronenberger"
-      },
-      {
-        "id": 4,
-        "colleaguePhoto": "https://avatars.githubusercontent.com/u/164350509?v=4",
-        "colleagueName": "Letícia Paulinelli",
-        "colleagueProfile": "https://github.com/leticiapaulinelli"
-      },
-      {
-        "id": 5,
-        "colleaguePhoto": "https://avatars.githubusercontent.com/u/164085533?v=4",
-        "colleagueName": "Lucas Berão",
-        "colleagueProfile": "https://github.com/LucasBerao"
-      },
-      {
-        "id": 6,
-        "colleaguePhoto": "https://avatars.githubusercontent.com/u/108374688?v=4",
-        "colleagueName": "Pedro Félix",
-        "colleagueProfile": "https://github.com/Pedro-HFelix"
-      }
+        {
+            "id": 1,
+            "colleaguePhoto": "https://avatars.githubusercontent.com/u/164039086?v=4",
+            "colleagueName": "Daniella Emily",
+            "colleagueProfile": "https://github.com/emilydaniella"
+        },
+        {
+            "id": 2,
+            "colleaguePhoto": "https://avatars.githubusercontent.com/u/165810733?v=4",
+            "colleagueName": "Davi Lanna",
+            "colleagueProfile": "https://github.com/DaviLanna"
+        },
+        {
+            "id": 3,
+            "colleaguePhoto": "https://avatars.githubusercontent.com/u/163441139?v=4",
+            "colleagueName": "Julia Cronenberger",
+            "colleagueProfile": "https://github.com/juliacronenberger"
+        },
+        {
+            "id": 4,
+            "colleaguePhoto": "https://avatars.githubusercontent.com/u/164350509?v=4",
+            "colleagueName": "Letícia Paulinelli",
+            "colleagueProfile": "https://github.com/leticiapaulinelli"
+        },
+        {
+            "id": 5,
+            "colleaguePhoto": "https://avatars.githubusercontent.com/u/164085533?v=4",
+            "colleagueName": "Lucas Berão",
+            "colleagueProfile": "https://github.com/LucasBerao"
+        },
+        {
+            "id": 6,
+            "colleaguePhoto": "https://avatars.githubusercontent.com/u/108374688?v=4",
+            "colleagueName": "Pedro Félix",
+            "colleagueProfile": "https://github.com/Pedro-HFelix"
+        }
     ]
-  }
-  
+}

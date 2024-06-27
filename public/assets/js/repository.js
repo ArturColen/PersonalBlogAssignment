@@ -17,10 +17,13 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function displayReposityData(repositoryId) {
+    let pageTitle = document.querySelector('title');
     let repositorySection = document.querySelector('#repository');
     const repository = githubRepositoriesData.find(
         (repo) => repo.id === parseInt(repositoryId)
     );
+
+    pageTitle.innerHTML = `${repository.name} | Artur Bomtempo`;
 
     if (repository) {
         let createdAt = formatDate(new Date(repository.created_at));
