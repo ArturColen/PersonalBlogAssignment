@@ -2,6 +2,8 @@
 
 Final project for the Web Interface Development course in the first semester of the Computer Science program, created with the goal of consolidating the main knowledge learned about front-end development and the consumption of a Restful API using the JSON Server library.
 
+<img width="1440" alt="Image of the blog" src="https://github.com/ArturColen/PersonalBlogAssignment/assets/96635074/8e58637e-153d-408f-ab89-368ec3cbda0a">
+
 ## 🔨 Project functionality
 
 The website consists of a personal blog that shares some personal information, data from created repositories, tips for starting in the software development field, and showcases some of my college colleagues. All this information is dynamic, meaning it is being consumed and loaded from the GitHub API and a locally created JSON Server.
